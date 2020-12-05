@@ -13,6 +13,9 @@ class HomePage extends StatelessWidget {
           children: <Widget>[
             Expanded(
               child: FlatButton(
+                onPressed: () {
+                  print('Dice1');
+                },
                 child: Image(
                   image: new AssetImage('images/dice1.jpg'),
                 ),
@@ -20,6 +23,9 @@ class HomePage extends StatelessWidget {
             ),
             Expanded(
               child: FlatButton(
+                onPressed: () {
+                  print('Dice2');
+                },
                 child: Image(
                   image: new AssetImage('images/dice2.jpg'),
                 ),
